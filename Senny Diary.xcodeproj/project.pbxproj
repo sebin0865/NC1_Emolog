@@ -1,0 +1,682 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E73BB14C2BD0D023007969B9 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E73BB14A2BD0D023007969B9 /* Model.xcdatamodeld */; };
+		E743E9AC2BD0D69E002C967C /* SennyDiary+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E743E9AA2BD0D69E002C967C /* SennyDiary+CoreDataClass.swift */; };
+		E743E9AD2BD0D69E002C967C /* SennyDiary+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E743E9AB2BD0D69E002C967C /* SennyDiary+CoreDataProperties.swift */; };
+		E743E9AF2BD0D938002C967C /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E743E9AE2BD0D938002C967C /* DataManager.swift */; };
+		E74788B72BCE6A940007088B /* AddGoalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74788B62BCE6A940007088B /* AddGoalView.swift */; };
+		E74F77BC2BC91AD400BCFB05 /* Senny_DiaryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74F77BB2BC91AD400BCFB05 /* Senny_DiaryApp.swift */; };
+		E74F77BE2BC91AD400BCFB05 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74F77BD2BC91AD400BCFB05 /* ContentView.swift */; };
+		E74F77C02BC91AD500BCFB05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E74F77BF2BC91AD500BCFB05 /* Assets.xcassets */; };
+		E74F77C32BC91AD500BCFB05 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E74F77C22BC91AD500BCFB05 /* Preview Assets.xcassets */; };
+		E74F77CD2BC91AD500BCFB05 /* Senny_DiaryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74F77CC2BC91AD500BCFB05 /* Senny_DiaryTests.swift */; };
+		E74F77D72BC91AD500BCFB05 /* Senny_DiaryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74F77D62BC91AD500BCFB05 /* Senny_DiaryUITests.swift */; };
+		E74F77D92BC91AD500BCFB05 /* Senny_DiaryUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74F77D82BC91AD500BCFB05 /* Senny_DiaryUITestsLaunchTests.swift */; };
+		E7C8E3962BCCE35F00638081 /* GoalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7C8E3952BCCE35F00638081 /* GoalView.swift */; };
+		E7C8E3982BCCE4D500638081 /* DiaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7C8E3972BCCE4D500638081 /* DiaryView.swift */; };
+		E7C8E39A2BCD065500638081 /* AddDiaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7C8E3992BCD065500638081 /* AddDiaryView.swift */; };
+		E7C8E3A02BCD160700638081 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7C8E39F2BCD160700638081 /* TabBarView.swift */; };
+		E7C8E3B32BCD2F4E00638081 /* 5png.png in Resources */ = {isa = PBXBuildFile; fileRef = E7C8E3AE2BCD2F4E00638081 /* 5png.png */; };
+		E7C8E3B42BCD2F4E00638081 /* 4png.png in Resources */ = {isa = PBXBuildFile; fileRef = E7C8E3AF2BCD2F4E00638081 /* 4png.png */; };
+		E7C8E3B52BCD2F4E00638081 /* 2png.png in Resources */ = {isa = PBXBuildFile; fileRef = E7C8E3B02BCD2F4E00638081 /* 2png.png */; };
+		E7C8E3B62BCD2F4E00638081 /* 3png.png in Resources */ = {isa = PBXBuildFile; fileRef = E7C8E3B12BCD2F4E00638081 /* 3png.png */; };
+		E7C8E3B72BCD2F4E00638081 /* 1emoji.png in Resources */ = {isa = PBXBuildFile; fileRef = E7C8E3B22BCD2F4E00638081 /* 1emoji.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E74F77C92BC91AD500BCFB05 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E74F77B02BC91AD300BCFB05 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E74F77B72BC91AD400BCFB05;
+			remoteInfo = "Senny Diary";
+		};
+		E74F77D32BC91AD500BCFB05 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E74F77B02BC91AD300BCFB05 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E74F77B72BC91AD400BCFB05;
+			remoteInfo = "Senny Diary";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E73BB14B2BD0D023007969B9 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		E743E9AA2BD0D69E002C967C /* SennyDiary+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SennyDiary+CoreDataClass.swift"; sourceTree = "<group>"; };
+		E743E9AB2BD0D69E002C967C /* SennyDiary+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SennyDiary+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		E743E9AE2BD0D938002C967C /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		E74788B62BCE6A940007088B /* AddGoalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddGoalView.swift; sourceTree = "<group>"; };
+		E74F77B82BC91AD400BCFB05 /* Senny Diary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Senny Diary.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E74F77BB2BC91AD400BCFB05 /* Senny_DiaryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Senny_DiaryApp.swift; sourceTree = "<group>"; };
+		E74F77BD2BC91AD400BCFB05 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E74F77BF2BC91AD500BCFB05 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E74F77C22BC91AD500BCFB05 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E74F77C82BC91AD500BCFB05 /* Senny DiaryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Senny DiaryTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E74F77CC2BC91AD500BCFB05 /* Senny_DiaryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Senny_DiaryTests.swift; sourceTree = "<group>"; };
+		E74F77D22BC91AD500BCFB05 /* Senny DiaryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Senny DiaryUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E74F77D62BC91AD500BCFB05 /* Senny_DiaryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Senny_DiaryUITests.swift; sourceTree = "<group>"; };
+		E74F77D82BC91AD500BCFB05 /* Senny_DiaryUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Senny_DiaryUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E7C8E3952BCCE35F00638081 /* GoalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalView.swift; sourceTree = "<group>"; };
+		E7C8E3972BCCE4D500638081 /* DiaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryView.swift; sourceTree = "<group>"; };
+		E7C8E3992BCD065500638081 /* AddDiaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddDiaryView.swift; sourceTree = "<group>"; };
+		E7C8E39F2BCD160700638081 /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
+		E7C8E3AE2BCD2F4E00638081 /* 5png.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5png.png; sourceTree = "<group>"; };
+		E7C8E3AF2BCD2F4E00638081 /* 4png.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4png.png; sourceTree = "<group>"; };
+		E7C8E3B02BCD2F4E00638081 /* 2png.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2png.png; sourceTree = "<group>"; };
+		E7C8E3B12BCD2F4E00638081 /* 3png.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3png.png; sourceTree = "<group>"; };
+		E7C8E3B22BCD2F4E00638081 /* 1emoji.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1emoji.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E74F77B52BC91AD400BCFB05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E74F77C52BC91AD500BCFB05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E74F77CF2BC91AD500BCFB05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E73BB1492BD0CFE3007969B9 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				E73BB14A2BD0D023007969B9 /* Model.xcdatamodeld */,
+				E743E9AE2BD0D938002C967C /* DataManager.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		E74F77AF2BC91AD300BCFB05 = {
+			isa = PBXGroup;
+			children = (
+				E743E9AA2BD0D69E002C967C /* SennyDiary+CoreDataClass.swift */,
+				E743E9AB2BD0D69E002C967C /* SennyDiary+CoreDataProperties.swift */,
+				E74F77BA2BC91AD400BCFB05 /* Senny Diary */,
+				E74F77CB2BC91AD500BCFB05 /* Senny DiaryTests */,
+				E74F77D52BC91AD500BCFB05 /* Senny DiaryUITests */,
+				E74F77B92BC91AD400BCFB05 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E74F77B92BC91AD400BCFB05 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E74F77B82BC91AD400BCFB05 /* Senny Diary.app */,
+				E74F77C82BC91AD500BCFB05 /* Senny DiaryTests.xctest */,
+				E74F77D22BC91AD500BCFB05 /* Senny DiaryUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E74F77BA2BC91AD400BCFB05 /* Senny Diary */ = {
+			isa = PBXGroup;
+			children = (
+				E74F77BB2BC91AD400BCFB05 /* Senny_DiaryApp.swift */,
+				E74F77BD2BC91AD400BCFB05 /* ContentView.swift */,
+				E7C8E39F2BCD160700638081 /* TabBarView.swift */,
+				E7C8E3972BCCE4D500638081 /* DiaryView.swift */,
+				E7C8E3992BCD065500638081 /* AddDiaryView.swift */,
+				E74788B62BCE6A940007088B /* AddGoalView.swift */,
+				E7C8E3952BCCE35F00638081 /* GoalView.swift */,
+				E74F77BF2BC91AD500BCFB05 /* Assets.xcassets */,
+				E73BB1492BD0CFE3007969B9 /* Data */,
+				E7C8E3B82BCD2F6000638081 /* png  */,
+				E7C8E3A12BCD1FEC00638081 /* Font */,
+				E74F77C12BC91AD500BCFB05 /* Preview Content */,
+			);
+			path = "Senny Diary";
+			sourceTree = "<group>";
+		};
+		E74F77C12BC91AD500BCFB05 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E74F77C22BC91AD500BCFB05 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E74F77CB2BC91AD500BCFB05 /* Senny DiaryTests */ = {
+			isa = PBXGroup;
+			children = (
+				E74F77CC2BC91AD500BCFB05 /* Senny_DiaryTests.swift */,
+			);
+			path = "Senny DiaryTests";
+			sourceTree = "<group>";
+		};
+		E74F77D52BC91AD500BCFB05 /* Senny DiaryUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E74F77D62BC91AD500BCFB05 /* Senny_DiaryUITests.swift */,
+				E74F77D82BC91AD500BCFB05 /* Senny_DiaryUITestsLaunchTests.swift */,
+			);
+			path = "Senny DiaryUITests";
+			sourceTree = "<group>";
+		};
+		E7C8E3A12BCD1FEC00638081 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		E7C8E3B82BCD2F6000638081 /* png  */ = {
+			isa = PBXGroup;
+			children = (
+				E7C8E3B22BCD2F4E00638081 /* 1emoji.png */,
+				E7C8E3B02BCD2F4E00638081 /* 2png.png */,
+				E7C8E3B12BCD2F4E00638081 /* 3png.png */,
+				E7C8E3AF2BCD2F4E00638081 /* 4png.png */,
+				E7C8E3AE2BCD2F4E00638081 /* 5png.png */,
+			);
+			path = "png ";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E74F77B72BC91AD400BCFB05 /* Senny Diary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E74F77DC2BC91AD500BCFB05 /* Build configuration list for PBXNativeTarget "Senny Diary" */;
+			buildPhases = (
+				E74F77B42BC91AD400BCFB05 /* Sources */,
+				E74F77B52BC91AD400BCFB05 /* Frameworks */,
+				E74F77B62BC91AD400BCFB05 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Senny Diary";
+			productName = "Senny Diary";
+			productReference = E74F77B82BC91AD400BCFB05 /* Senny Diary.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E74F77C72BC91AD500BCFB05 /* Senny DiaryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E74F77DF2BC91AD500BCFB05 /* Build configuration list for PBXNativeTarget "Senny DiaryTests" */;
+			buildPhases = (
+				E74F77C42BC91AD500BCFB05 /* Sources */,
+				E74F77C52BC91AD500BCFB05 /* Frameworks */,
+				E74F77C62BC91AD500BCFB05 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E74F77CA2BC91AD500BCFB05 /* PBXTargetDependency */,
+			);
+			name = "Senny DiaryTests";
+			productName = "Senny DiaryTests";
+			productReference = E74F77C82BC91AD500BCFB05 /* Senny DiaryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E74F77D12BC91AD500BCFB05 /* Senny DiaryUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E74F77E22BC91AD500BCFB05 /* Build configuration list for PBXNativeTarget "Senny DiaryUITests" */;
+			buildPhases = (
+				E74F77CE2BC91AD500BCFB05 /* Sources */,
+				E74F77CF2BC91AD500BCFB05 /* Frameworks */,
+				E74F77D02BC91AD500BCFB05 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E74F77D42BC91AD500BCFB05 /* PBXTargetDependency */,
+			);
+			name = "Senny DiaryUITests";
+			productName = "Senny DiaryUITests";
+			productReference = E74F77D22BC91AD500BCFB05 /* Senny DiaryUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E74F77B02BC91AD300BCFB05 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					E74F77B72BC91AD400BCFB05 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					E74F77C72BC91AD500BCFB05 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = E74F77B72BC91AD400BCFB05;
+					};
+					E74F77D12BC91AD500BCFB05 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = E74F77B72BC91AD400BCFB05;
+					};
+				};
+			};
+			buildConfigurationList = E74F77B32BC91AD300BCFB05 /* Build configuration list for PBXProject "Senny Diary" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E74F77AF2BC91AD300BCFB05;
+			productRefGroup = E74F77B92BC91AD400BCFB05 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E74F77B72BC91AD400BCFB05 /* Senny Diary */,
+				E74F77C72BC91AD500BCFB05 /* Senny DiaryTests */,
+				E74F77D12BC91AD500BCFB05 /* Senny DiaryUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E74F77B62BC91AD400BCFB05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7C8E3B52BCD2F4E00638081 /* 2png.png in Resources */,
+				E7C8E3B72BCD2F4E00638081 /* 1emoji.png in Resources */,
+				E7C8E3B62BCD2F4E00638081 /* 3png.png in Resources */,
+				E7C8E3B32BCD2F4E00638081 /* 5png.png in Resources */,
+				E7C8E3B42BCD2F4E00638081 /* 4png.png in Resources */,
+				E74F77C32BC91AD500BCFB05 /* Preview Assets.xcassets in Resources */,
+				E74F77C02BC91AD500BCFB05 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E74F77C62BC91AD500BCFB05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E74F77D02BC91AD500BCFB05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E74F77B42BC91AD400BCFB05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E74F77BE2BC91AD400BCFB05 /* ContentView.swift in Sources */,
+				E7C8E3962BCCE35F00638081 /* GoalView.swift in Sources */,
+				E743E9AC2BD0D69E002C967C /* SennyDiary+CoreDataClass.swift in Sources */,
+				E743E9AD2BD0D69E002C967C /* SennyDiary+CoreDataProperties.swift in Sources */,
+				E7C8E3982BCCE4D500638081 /* DiaryView.swift in Sources */,
+				E73BB14C2BD0D023007969B9 /* Model.xcdatamodeld in Sources */,
+				E74788B72BCE6A940007088B /* AddGoalView.swift in Sources */,
+				E74F77BC2BC91AD400BCFB05 /* Senny_DiaryApp.swift in Sources */,
+				E743E9AF2BD0D938002C967C /* DataManager.swift in Sources */,
+				E7C8E3A02BCD160700638081 /* TabBarView.swift in Sources */,
+				E7C8E39A2BCD065500638081 /* AddDiaryView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E74F77C42BC91AD500BCFB05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E74F77CD2BC91AD500BCFB05 /* Senny_DiaryTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E74F77CE2BC91AD500BCFB05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E74F77D92BC91AD500BCFB05 /* Senny_DiaryUITestsLaunchTests.swift in Sources */,
+				E74F77D72BC91AD500BCFB05 /* Senny_DiaryUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E74F77CA2BC91AD500BCFB05 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E74F77B72BC91AD400BCFB05 /* Senny Diary */;
+			targetProxy = E74F77C92BC91AD500BCFB05 /* PBXContainerItemProxy */;
+		};
+		E74F77D42BC91AD500BCFB05 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E74F77B72BC91AD400BCFB05 /* Senny Diary */;
+			targetProxy = E74F77D32BC91AD500BCFB05 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E74F77DA2BC91AD500BCFB05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E74F77DB2BC91AD500BCFB05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E74F77DD2BC91AD500BCFB05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Senny Diary/Preview Content\"";
+				DEVELOPMENT_TEAM = V2T6M7YCUA;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SennyDiary.Senny-Diary";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E74F77DE2BC91AD500BCFB05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Senny Diary/Preview Content\"";
+				DEVELOPMENT_TEAM = V2T6M7YCUA;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SennyDiary.Senny-Diary";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E74F77E02BC91AD500BCFB05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SennyDiary.Senny-DiaryTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Senny Diary.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Senny Diary";
+			};
+			name = Debug;
+		};
+		E74F77E12BC91AD500BCFB05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SennyDiary.Senny-DiaryTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Senny Diary.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Senny Diary";
+			};
+			name = Release;
+		};
+		E74F77E32BC91AD500BCFB05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SennyDiary.Senny-DiaryUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Senny Diary";
+			};
+			name = Debug;
+		};
+		E74F77E42BC91AD500BCFB05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SennyDiary.Senny-DiaryUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Senny Diary";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E74F77B32BC91AD300BCFB05 /* Build configuration list for PBXProject "Senny Diary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E74F77DA2BC91AD500BCFB05 /* Debug */,
+				E74F77DB2BC91AD500BCFB05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E74F77DC2BC91AD500BCFB05 /* Build configuration list for PBXNativeTarget "Senny Diary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E74F77DD2BC91AD500BCFB05 /* Debug */,
+				E74F77DE2BC91AD500BCFB05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E74F77DF2BC91AD500BCFB05 /* Build configuration list for PBXNativeTarget "Senny DiaryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E74F77E02BC91AD500BCFB05 /* Debug */,
+				E74F77E12BC91AD500BCFB05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E74F77E22BC91AD500BCFB05 /* Build configuration list for PBXNativeTarget "Senny DiaryUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E74F77E32BC91AD500BCFB05 /* Debug */,
+				E74F77E42BC91AD500BCFB05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E73BB14A2BD0D023007969B9 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E73BB14B2BD0D023007969B9 /* Model.xcdatamodel */,
+			);
+			currentVersion = E73BB14B2BD0D023007969B9 /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E74F77B02BC91AD300BCFB05 /* Project object */;
+}
